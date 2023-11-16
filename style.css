@@ -1,6 +1,6 @@
 .intro-pic {
-    width: 400px;
-    height: 200px;
+    width: 500px;
+    height: 300px;
 }
 
 .img {
@@ -51,10 +51,12 @@ a {
 .intro-button {
     align-self: flex-start;
     margin: 5px 0px;
-    background-color: rgb(0, 89, 255);
+    background-color: #3882F6;
     color: white;
-    padding: 5px;
+    padding: 5px 20px;
     border-radius: 12px;
+    font-size: 16px;
+    border: 1px white solid;
 }
 
 body {
@@ -63,8 +65,125 @@ body {
 
 .intro-container h1 {
     margin: 5px 0px;
+    font-weight: 1000;
+    font-size: 48px;
+    color: #F9FAF8;
 }
 
 .intro-container p {
     margin: 5px 0px;
+    font-size: 18px;
+    color: #F9FAF8;
 }
+
+.contents {
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid lightslategray 5px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+}
+
+.card-container p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+    padding: 300px 380px;
+} 
+
+.author {
+    text-align: end;
+}
+
+.regret p {
+    font-style: italic;
+    font-weight: 200;
+    color: lightslategray;
+}
+
+.ending {
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ending-container {
+    display: flex;
+    border: 3px solid rgb(26, 103, 247);
+    width: 800px;
+    height: 140px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(26, 103, 247);
+    padding: 0px 100px;
+    
+}
+
+.ending-container .button {
+    margin: 5px 0px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: white 1px solid;
+}
+
+.para p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: white;
+}
+
+.para h3 {
+    margin: 5px 0px;
+    color: white;
+}
+
+.footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 12px;
+}
+
